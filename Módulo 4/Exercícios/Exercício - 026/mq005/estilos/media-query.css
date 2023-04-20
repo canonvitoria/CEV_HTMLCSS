@@ -1,0 +1,20 @@
+@charset "UTD-8";
+
+@MEDIA SCREEN AND (MIN-WIDTH: 768PX) {
+    
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
